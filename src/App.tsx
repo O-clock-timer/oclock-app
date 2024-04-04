@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
 export default class App extends React.Component {
   render() {
     return (
-      <Swiper showsButtons={false}>
+      <Swiper showsButtons={false} dotColor='#343434' activeDotColor='#989798'>
         <View style={styles.slide}>
           <Text style={styles.text}>First Page</Text>
         </View>
